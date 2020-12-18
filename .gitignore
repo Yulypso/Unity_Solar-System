@@ -1,0 +1,9 @@
+.DS_Store
+.vs/
+Assembly-CSharp.csproj
+Library/
+Logs/
+Solar_Systel.sln
+Solar_System*
+UserSettings/
+obj/
