@@ -7,6 +7,9 @@ public class AutoRotation : MonoBehaviour
 
     public float m_rotSpeed = 10.0f;
     private float m_angle = 0.0f;
+    public float z_angle = 0.0f;
+    public float x_angle = 0.0f;
+    public bool isPlanet = false; //to rotate arround the GameObject local Y axis 
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,13 @@ public class AutoRotation : MonoBehaviour
 
         Debug.Log(m_angle);
 
-        this.transform.localRotation = Quaternion.Euler(0.0f, m_angle, 0.0f);
+        if (isPlanet)
+        {
+            transform.RotateAround(transform.position, transform.up, Time.deltaTime * m_rotSpeed);
+        }
+        else
+        {
+            this.transform.localRotation = Quaternion.Euler(x_angle, m_angle, z_angle);
+        }
     }
 }
