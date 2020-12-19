@@ -12,8 +12,8 @@ public class CreateSolarSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(_prefab != null && !_created && Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-        if(_prefab != null && !_created && Input.GetKeyDown(KeyCode.Space))
+        if(_prefab != null && !_created && Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        //if(_prefab != null && !_created && Input.GetKeyDown(KeyCode.Space))
         {
             GameObject go = Instantiate(_prefab);
             Vector3 posCam = Camera.main.transform.position; // MainCamera tag set on AR Camera
