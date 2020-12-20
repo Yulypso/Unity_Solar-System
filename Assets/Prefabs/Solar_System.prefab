@@ -42701,35 +42701,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4589255745349125390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7290560406022407517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 448b6be1f609d441a9373fbce9f40d5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_rotSpeed: 10
-  z_angle: 0
-  x_angle: 0
-  isPlanet: 0
---- !u!114 &1779280328376165830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7290560406022407517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fda841d224f1439190411b69ea99b94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _text: {fileID: 1234785948229956944}
 --- !u!198 &5667035450520368641
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -47510,6 +47481,35 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &1779280328376165830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290560406022407517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fda841d224f1439190411b69ea99b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 1234785948229956944}
+--- !u!114 &4589255745349125390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7290560406022407517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448b6be1f609d441a9373fbce9f40d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_rotSpeed: 10
+  z_angle: 0
+  x_angle: 0
+  isPlanet: 0
 --- !u!1 &7915294532155208346
 GameObject:
   m_ObjectHideFlags: 0
@@ -49038,27 +49038,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalScale.x
-      value: 13.333335
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalScale.y
-      value: 13.333335
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalScale.z
-      value: 13.333335
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 256.56665
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.614154
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -19.00735
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4409152076811216669, guid: 4cd217dbf7fe742d090524c4bb85fe30, type: 3}
       propertyPath: m_LocalRotation.w
